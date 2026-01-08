@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fonts-inter- {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+/* This is a CSS file for styling the header and navigation bar of a webpage. */
+header {
+    width: 100%;
+    max-width: 1600px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+nav .menu li {
+    list-style: none;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+nav .logo img {
+    padding-left: 65px;
+    padding-top: 15px;
+}
+
+nav .btn {
+    margin-right: 110px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #469165;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+nav .btn:hover {
+    background-color: #367b50;
+}
+
