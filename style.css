@@ -70,7 +70,7 @@ nav .btn:hover {
     max-width: 1600px;
     height: 670px;
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
-    padding: 70px 120px 135px 120px ;
+    padding: 70px 120px 135px 120px;
 }
 
 
@@ -78,41 +78,47 @@ h1 span {
     display: block;
 }
 
-#banner .banner-container{
+#banner .banner-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 120px;
 }
-#banner .banner-container .early-access{
+
+#banner .banner-container .early-access {
     padding: 4px 12px;
     background-color: #FFFFFF;
     color: #30B868;
     border-radius: 30px;
     font-size: 16px;
     font-weight: 600;
-    
+
 }
+
 #banner .banner-container h1 {
     color: #FFFFFF;
     font-size: 80px;
     padding-top: 16px;
-} 
-#banner .banner-container h1 span{
+}
+
+#banner .banner-container h1 span {
     color: #30B868;
 }
-#banner .banner-container .banner-info{
+
+#banner .banner-container .banner-info {
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
 }
-#banner .banner-container .btn{
+
+#banner .banner-container .btn {
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
-#banner .banner-container .btn{
+
+#banner .banner-container .btn {
     padding: 12px 16px;
     border: none;
     font-size: 16px;
@@ -120,7 +126,8 @@ h1 span {
     border-radius: 4px;
 
 }
-#banner .banner-container .btn .primary-btn{
+
+#banner .banner-container .btn .primary-btn {
     padding: 12px 16px;
     color: #FFFFFF;
     background-color: #30B868;
@@ -129,7 +136,8 @@ h1 span {
     font-size: 16px;
     border-radius: 4px;
 }
-#banner .banner-container .btn .secondary-btn{
+
+#banner .banner-container .btn .secondary-btn {
     padding: 12px 16px;
     color: #FFFFFF;
     background-color: #FFFFFF;
@@ -143,4 +151,77 @@ h1 span {
 
 /* This is note-section */
 
+.note-sec .note-container {
+    width: 80%;
+    height: 450px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
 
+.note-sec .note-container .section-headings {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.note-sec .note-container .section-headings h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+
+}
+
+.note-sec .note-container .section-headings p {
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.note-sec .note-container .cards {
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid #E0E0E0; */
+}
+
+.note-sec .note-container .card1,
+.card2,
+.card3,
+.card4 {
+    width: 300px;
+    height: 300px;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 20px 20px;
+    gap: 24px;
+
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.note-sec .note-container .cards .card-headings {
+    font-size: 20px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+}
+
+.note-sec .note-container .cards .card-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
+}
